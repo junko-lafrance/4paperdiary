@@ -1,0 +1,339 @@
+/*
+[header]
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+  min-width: 1076px;
+}
+
+/*
+*[main]
+*/
+.kyokasho {
+  font-family: "Noto Serif JP", serif;
+}
+
+/*click-info*/
+.box-calendar {
+  min-width: 100px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+/*moji-ban*/
+.box-calendar-waku {
+  margin: auto;
+  padding: 30px;
+  width: 330px;
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+span {
+  display: inline;
+}
+
+.box-calendar-month {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+.box-calendar-day {
+  list-style: none;
+  text-align: center;
+  margin: 20px 50px 30px;
+}
+
+table td {
+  padding: 3px 5px;
+}
+
+/*
+.box-calendar {
+min-width: 100px;
+text-align: center;
+font-size: 12px;
+margin-bottom: 40px;
+}
+
+.box-calendar-waku {
+margin: auto;
+text-align: center;
+width: 200px;
+height: 200px;
+}
+*/
+.box-profile_link {
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*
+*[profile-main]
+*/
+.block-main {
+  text-align: center;
+}
+
+.item-list {
+  width: 100%;
+  max-width: 348px;
+  margin: 0 auto;
+}
+
+.item-list b {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.item-list p {
+  font-size: 15px;
+}
+
+.kyokasho {
+  font-family: "Noto serif JP", serif;
+}
+
+.work_coment {
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.image-size {
+  width: 100px;
+  height: auto;
+}
+
+.ditch {
+  height: 1px;
+  background-color: #efe7e7;
+}
+
+.color-yellow {
+  color: rgb(160, 184, 28);
+  font-size: 10px;
+}
+
+.box-aisatsu {
+  font-family: "Noto Serif JP", serif;
+  font-size: 10px;
+}
+
+.box-index_link {
+  font-family: "Noto Serif JP", serif;
+  font-size: 30px;
+  margin: 20px 0px 20px 890px;
+}
+
+/*
+[icon]
+*/
+.icon-list {
+  list-style: none;
+  width: 100%;
+  max-width: 247px;
+  margin: 50px auto 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-list li {
+  margin-right: 22px;
+}
+
+.icon-list li:last-child {
+  margin-right: 0;
+}
+
+.icon-size {
+  width: 20px;
+  height: 20px;
+}
+
+/* [footer] */
+.block-footer p {
+  text-align: center;
+  font-size: 5px;
+}
+
+/* sumaho-stylesheet */
+@media screen and (max-width: 767px) {
+  body {
+      min-width: 100%;
+  }
+
+  .icon-list {
+      min-width: 100%;
+  }
+
+  .item-list {
+      min-width: 100%;
+  }
+
+  /*
+[header]
+*/
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .block-header {
+      font-size: 40px;
+  }
+
+  /*
+*[main]
+*/
+  .kyokasho {
+      font-family: "Noto Serif JP", serif;
+  }
+
+  /*click-info*/
+  .box-calendar {
+      text-align: left;
+      font-size: 15px;
+      margin: 30px;
+  }
+
+  /*moji-ban*/
+  .table {
+      margin: auto;
+      text-align: center;
+      font-size: 14px;
+  }
+
+  .box-calendar-month {
+      text-align: center;
+  }
+
+  .box-calendar-day {
+      margin: 30px;
+  }
+
+  .table td {
+      padding: 5px;
+  }
+
+  .box-profile_link {
+      font-family: "Noto Serif JP", serif;
+      font-size: 20px;
+      margin: 40px;
+  }
+
+  /*
+[icon]
+*/
+  .icon-list {
+      list-style: none;
+      width: 100%;
+      max-width: 247px;
+      margin: 50px auto 20px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .icon-list li {
+      margin-right: 22px;
+  }
+
+  .icon-list li:last-child {
+      margin-right: 0;
+  }
+
+  .icon-size {
+      width: 30px;
+      height: 30px;
+  }
+
+  /* [footer] */
+  .block-footer p {
+      text-align: center;
+      font-size: 5px;
+  }
+}
+
+/*
+*[sumaho-profile]
+*/
+/*[header]*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block-header {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.block-main {
+  text-align: center;
+}
+
+.item-list {
+  width: 100%;
+  min-width-width: 100%;
+  margin: 0 auto;
+}
+
+.item-list b {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.item-list p {
+  font-size: 10px;
+}
+
+.kyokasho {
+  font-family: "Noto serif JP", serif;
+}
+
+.work_coment {
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.image-size {
+  width: 100px;
+  height: auto;
+}
+
+.ditch {
+  height: 1px;
+  background-color: #efe7e7;
+}
+
+.color-yellow {
+  color: rgb(160, 184, 28);
+  font-size: 10px;
+}
+
+.box-aisatsu {
+  font-family: "Noto Serif JP", serif;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.box-index_link {
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+  margin: auto;
+}
