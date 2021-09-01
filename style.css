@@ -160,7 +160,7 @@ height: 200px;
 }
 
 .icon-size {
-  width: 20px;
+  width: auto ;
   height: 20px;
 }
 
@@ -257,8 +257,8 @@ height: 200px;
   }
 
   .icon-size {
-      width: 30px;
-      height: 30px;
+      width: auto;
+      height: 20px;
   }
 
   /* [footer] */
